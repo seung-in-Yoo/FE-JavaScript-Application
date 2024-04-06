@@ -17,4 +17,4 @@ let sum=0;
     sum+=lionMoney[i];
     
   };
-  console.log(sum);
+  alert(sum);
