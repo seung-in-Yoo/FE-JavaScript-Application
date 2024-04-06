@@ -8,3 +8,13 @@ let lionMoney = {
   재혁: 2800,
   동재: 50000,
 };
+
+// arr[key]
+
+let sum=0;
+
+  for(let i in lionMoney) {
+    sum+=lionMoney[i];
+    
+  };
+  console.log(sum);
