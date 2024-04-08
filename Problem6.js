@@ -8,7 +8,7 @@ const arr = [{ part: "fe", name: "홍현", age: 26},
 let newarr = arr.filter(arr => arr.part === "fe");
 console.log(newarr);
 
-let newarr2 = newarr.sort((a,b) => (a.age - b.age));
+let newarr2 = newarr.sort((a,b)=>b.age-a.age);
 console.log(newarr2);
 
 const final_arr = newarr2.map(function(item) {
